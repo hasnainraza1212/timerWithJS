@@ -1,0 +1,82 @@
+/* body{
+    background-color: white !important;
+    color: red !important;
+    font-size: 50px !important;
+} */
+body{
+    height: 100vh;
+    background-color: #CCECFC !important;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    padding:0 50px ;
+}
+.circle{
+    /* border: 1px solid red; */
+    min-width: 200px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: inset 2px 3px 10px 2px rgba(0,0,0,0.06);
+
+
+}
+.circle p{
+    font-size: 40px;
+    font-weight: 700;
+    color: #EA733F;
+}
+.resetBtn {
+    bottom: -5px;
+    right: -5px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: #EA733F;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+
+}
+.resetBtn:hover, .btnTimer.bottom:hover{
+    background-color: #dd622e;
+}
+.mainBox{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnTimer.bottom{
+    width: 150px;
+    background-color: #EA733F;
+    color: white;
+    font-weight: 600;
+    border: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+}
+.inputColor{
+    color: #EA733F !important;
+    font-weight: 700 !important;
+}
+.inputColor::placeholder{
+    font-weight: 400 !important;
+}
+
+.mainDiv{
+    width: 400px !important;
+    min-height: 80vh;
+    max-height: 80vh;
+    background-color: rgb(255, 255, 255) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 50px  40px;
+}
